@@ -1,0 +1,52 @@
+.grid-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.grid-container {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.grid-row {
+  
+  display: flex;
+}
+
+.grid-item {
+  background-color: #fff;
+  border: 1px solid #000;
+  width: var(--cell-size);
+  height: var(--cell-size);
+}
+
+
+
+.grid-item.active {
+  background-color: #000;
+}
+
+.grid-container.offset {
+  position: fixed;
+  z-index: 0;
+  
+  margin-top: -10px;
+  margin-right: 350px;
+
+  display: flex;
+}
+
+.grid-item.overlay {
+  position: relative;
+  background-color: #000; /* Semi-transparent red for visibility */
+  border: 1px solid #000;
+  width: var(--cell-size2);
+  height: var(--cell-size2);
+  border-radius: 50%;
+  
+}

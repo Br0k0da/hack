@@ -1,0 +1,14 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('./image/Background.png');
+  background-size: cover; /* изображение покрывает весь экран */
+  background-position: center; /* центрирование изображения */
+  background-repeat: no-repeat; /* изображение не повторяется */
+  overflow: hidden;
+}
+
+
+.container {
+  height: 100vh;
+}
+
