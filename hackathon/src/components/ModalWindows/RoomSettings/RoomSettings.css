@@ -1,4 +1,4 @@
-.creatmenu{
+.roomSetings {
     z-index: 10;
     height: 100vh;
     width: 100%;
@@ -12,11 +12,12 @@
     transform: scale(0);
 }
 
-.creatmenu.active{
+.roomSetings.active {
     transform: scale(1);
 }
 
-.creatMenu_content{
+.roomSetings_content {
+    
     padding: 20px;
     border-radius: 12px;
     background-color: #5DD3CD;
@@ -27,22 +28,12 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
-
     box-shadow: 6px 22px 49px rgba(0, 0, 0, 0.53);
+
 }
 
-.creatMenu_buttonsBlock1{
+.creatRoombuttom{
     margin-top: 50px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-bottom: 50px;
-}
-
-
-.withPlayers{
     border-radius: 20px;
     height: 50px;
     font-size: 18px;
@@ -53,19 +44,46 @@
     align-items: center;
     justify-content: center;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.53);
+    cursor: pointer;
     
 }
 
-.withBot{
-    border-radius: 20px;
-    height: 50px;
-    font-size: 18px;
-    width: 200px;
-    background-color: #FFFFFF;
+.size{
+    margin-top: 50px;
     color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.53);
+    font-size: 24px;
 }
 
+.roomSetings_buttonsBlock2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+.minus{
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-size: 24px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.53);
+    cursor: pointer;
+}
+.plus{
+    border-radius: 20px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-size: 24px;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.53);
+    cursor: pointer;
+}

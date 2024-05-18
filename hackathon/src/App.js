@@ -19,10 +19,5 @@ const App = (props) => {
   );
 }
 
-// const mapStateToProps = (state) =>{
-//   return{
-//     count: state.count
-//   }
-// }
 
 export default App;

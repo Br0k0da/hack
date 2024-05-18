@@ -2,7 +2,7 @@
     z-index: 10;
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #3AAFA9;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,13 +19,15 @@
 .listMenu_content {
     padding: 20px;
     border-radius: 12px;
-    background-color: white;
+    background-color: #5DD3CD;
     height: 700px;
-    width: 500px;
+    width: 400px;
     display: flex;
+    
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    box-shadow: 6px 22px 49px rgba(0, 0, 0, 0.53);
 }
 
 .listMenu_content ul {
@@ -39,12 +41,13 @@
     align-items: center;
     padding: 10px;
     margin: 5px 0;
-    background-color: #e0e0e0;
+    background-color: white;
     border-radius: 5px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.53);
 }
 
 .join-button {
-    margin-left:50px ;
+    margin-left: 50px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -52,9 +55,26 @@
     color: white;
     cursor: pointer;
     font-size: 16px;
-  }
-  
-  .join-button:hover {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.53);
+    cursor: pointer;
+}
+
+.join-button:hover {
     background-color: #0056b3;
-  }
-  
+}
+
+
+.creatRoombuttom1 {
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: #FFFFFF;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.53);
+    cursor: pointer;
+}

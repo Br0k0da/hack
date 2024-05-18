@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .grid-row {
@@ -19,34 +19,57 @@
 }
 
 .grid-item {
-  background-color: #fff;
+  background-color: #def2f1;
   border: 1px solid #000;
   width: var(--cell-size);
   height: var(--cell-size);
-}
-
-
-
-.grid-item.active {
-  background-color: #000;
-}
-
-.grid-container.offset {
-  position: fixed;
-  z-index: 0;
-  
-  margin-top: -10px;
-  margin-right: 350px;
-
   display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
-.grid-item.overlay {
-  position: relative;
-  background-color: #000; /* Semi-transparent red for visibility */
-  border: 1px solid #000;
-  width: var(--cell-size2);
-  height: var(--cell-size2);
-  border-radius: 50%;
+.dot {
+  margin-left:  var(--margin-size);
+  margin-top:  var(--margin-size);
+  position: absolute;
+  width: var(--dot-size);
+  height: var(--dot-size);
   
+  border-radius: 50%;
+  background-color: black;
+}
+
+
+.dot-right{
+  margin-right:  var(--margin-size);
+  margin-top:  var(--margin-size);
+  position: absolute;
+  width: var(--dot-size);
+  height: var(--dot-size);
+  
+  border-radius: 50%;
+  background-color: black;
+}
+
+.dot-bottom{
+  margin-left:  var(--margin-size);
+  margin-bottom:  var(--margin-size);
+  position: absolute;
+  width: var(--dot-size);
+  height: var(--dot-size);
+  
+  border-radius: 50%;
+  background-color: black;
+}
+
+.dot-bottom-right{
+  margin-right:  var(--margin-size);
+  margin-bottom:  var(--margin-size);
+  position: absolute;
+  width: var(--dot-size);
+  height: var(--dot-size);
+  
+  border-radius: 50%;
+  background-color: black;
 }
